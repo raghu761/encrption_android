@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background1"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <EditText
+        android:id="@+id/displayvalue"
+        android:layout_width="match_parent"
+        android:layout_height="291dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="254dp"
+        android:ems="10"
+
+        android:hint="enter encrypted data"
+        android:inputType="textMultiLine"
+        android:scrollbars="vertical"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/keyvalue"
+        android:layout_width="149dp"
+        android:layout_height="62dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="140dp"
+        android:layout_marginRight="140dp"
+        android:layout_marginBottom="584dp"
+        android:ems="10"
+        android:hint="Enter key"
+        android:inputType="number"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="26dp" />
+
+    <Button
+        android:id="@+id/enterbutton"
+        android:layout_width="161dp"
+        android:layout_height="59dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="149dp"
+        android:layout_marginRight="149dp"
+        android:layout_marginBottom="28dp"
+        android:layout_weight="1"
+        android:background="@drawable/custom_button"
+        android:text="decrypt"
+        android:textSize="22dp" />
+
+
+</RelativeLayout>

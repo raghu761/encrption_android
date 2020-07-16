@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background3"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="85dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/encryptbutton"
+            android:layout_width="158dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="230dp"
+            android:layout_marginRight="230dp"
+            android:background="@drawable/custom_button"
+            android:layout_weight="1"
+            android:textSize="22dp"
+            android:text="encrypt" />
+
+        <Button
+            android:id="@+id/decryptbutton"
+            android:layout_width="183dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="27dp"
+            android:layout_marginRight="27dp"
+            android:background="@drawable/custom_button"
+            android:layout_weight="1"
+            android:textSize="22dp"
+            android:text="decrypt" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="6dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/clearbutton"
+            android:layout_width="158dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="232dp"
+            android:layout_marginRight="232dp"
+            android:layout_weight="1"
+            android:textSize="22dp"
+            android:background="@drawable/custom_button"
+            android:text="clear" />
+
+        <Button
+            android:id="@+id/passwordbutton"
+            android:layout_width="189dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="22dp"
+            android:layout_marginRight="22dp"
+            android:background="@drawable/custom_button"
+            android:layout_weight="1"
+            android:textSize="22dp"
+            android:text="encrypt password" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="152dp">
+
+
+        <Button
+            android:id="@+id/sendbutton"
+            android:layout_width="161dp"
+
+            android:layout_height="59dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="133dp"
+            android:layout_marginRight="133dp"
+            android:layout_marginBottom="13dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button"
+            android:text="send"
+            android:textSize="22dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="411dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="247dp"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="341dp"
+            android:layout_height="401dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="47dp"
+            android:layout_marginRight="47dp"
+            android:layout_marginBottom="0dp"
+            android:ems="10"
+            android:hint="TYPE HERE"
+            android:scrollbars="vertical"
+            android:inputType="textMultiLine"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
